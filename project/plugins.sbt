@@ -1,3 +1,1 @@
-addSbtPlugin("me.lessis" % "bintray-sbt" % "0.3.0")
-
-libraryDependencies <+= sbtVersion(v => "com.github.siasia" %% "xsbt-web-plugin" % (v+"-0.2.10"))
+addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "2.1.0")

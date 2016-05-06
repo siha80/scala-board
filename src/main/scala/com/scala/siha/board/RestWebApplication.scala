@@ -6,6 +6,6 @@ import org.springframework.boot.SpringApplication
 /**
  * Created by Administrator on 2016-05-06.
  */
-object RestWebApplication {
+object RestWebApplication extends App{
   SpringApplication.run(classOf[ApplicationConfiguration]);
 }
