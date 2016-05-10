@@ -14,6 +14,7 @@ libraryDependencies ++= Seq(
   "org.thymeleaf" % "thymeleaf-spring4" % "2.1.2.RELEASE",
   "org.hibernate" % "hibernate-validator" % "5.0.2.Final",
   "nz.net.ultraq.thymeleaf" % "thymeleaf-layout-dialect" % "1.2.1",
+  "com.h2database" % "h2" % "1.4.182",
   "org.hsqldb" % "hsqldb" % "2.3.1",
   "org.springframework.boot" % "spring-boot-starter-tomcat" % "1.0.2.RELEASE" % "provided",
   "javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided"

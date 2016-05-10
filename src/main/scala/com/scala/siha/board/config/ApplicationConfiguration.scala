@@ -6,4 +6,6 @@ import org.springframework.context.annotation.{ComponentScan, Configuration}
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan(basePackages = Array("com.scala.siha.board"))
-class ApplicationConfiguration
+class ApplicationConfiguration {
+  
+}
