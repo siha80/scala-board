@@ -4,4 +4,5 @@ import com.scala.siha.board.core.domain.ContentInformation
 import org.springframework.data.jpa.repository.JpaRepository
 
 trait ContentInformationRepository extends JpaRepository[ContentInformation, String] {
+  def findBySubjectContaining(subject: String): java.util.List[ContentInformation]
 }

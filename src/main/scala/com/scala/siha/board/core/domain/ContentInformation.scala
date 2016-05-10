@@ -16,4 +16,6 @@ case class ContentInformation(
   @Column(name = "INDEX")
   var id: String = _
   def this() = this(null, null)
+
+  override def toString(): String = s"TITLE: ${getSubject}, CONTENT: ${getContent}"
 }
