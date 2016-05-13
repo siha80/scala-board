@@ -17,5 +17,5 @@ case class ContentInformation(
   var id: String = _
   def this() = this(null, null)
 
-  override def toString(): String = s"TITLE: ${getSubject}, CONTENT: ${getContent}"
+  override def toString(): String = s"TITLE: ${subject}, CONTENT: ${content}"
 }
